@@ -45,7 +45,7 @@ Project created by <a href="https://github.com/Arjun1234arjun">Arjun</a> to make
 
 ```
   
-Shadow-sir_v2 Userbot is Open Source software open to development. 
+Arjun-sir Userbot is Open Source software open to development. 
 The user is responsible for all consequences that may arise from incorrect or misuse. 
 Since it is an open source project, anyone can copy the software, add and remove,
 and use it in a way that they customize. In addition, plug-in support enables users to 
