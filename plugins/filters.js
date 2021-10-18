@@ -183,7 +183,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if (!!message.mention && message.mention[0] == '918921567978@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/mention.webp'), MessageType.sticker, { mimetype: Mimetype.mp4Audio, contextInfo: { forwardingScore: 1000, isForwarded: true }, quoted : message.data, ptt: false})
     }
-const array = ['Kozhi','Arjun','Bye','bye','Dai','Poli','Dance','Gd mrng','Skba','Ara','Poyi','Shadow','myr','Sticker','poda','podi','Pain','girl','asena','ayin','back','Back','Bot','fuck','Fuck','Hehe','Hello','Hlo','Kill','kill','kiss','line','love','mwolu','Mwolu','single','tha','thund','z','Z','bie','Bie','Bomb','jithin']
+const array = ['Kozhi','Bye','bye','Dai','Poli','Dance','Gd mrng','Skba','Ara','Poyi','Shadow','myr','Sticker','poda','podi','Pain','girl','asena','ayin','back','Back','Bot','fuck','Fuck','Hehe','Hello','Hlo','Kill','kill','kiss','line','love','mwolu','Mwolu','single','tha','thund','z','Z','bie','Bie','Bomb','jithin']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
